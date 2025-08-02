@@ -64,24 +64,93 @@ export default function DingDongLanding() {
           buttonSecondary:
             "bg-white text-black border-white hover:bg-[#85CC17] hover:text-black hover:border-[#85CC17]",
           sectionAlt: "bg-white",
+          //Seperate
+            // bg: "bg-[#0f1511]", // Very dark green-black
+            // text: "text-[#ffffff]",
+            // headerBg: "bg-[#1e2922]", // Slightly lighter than bg
+            // heroBg: "bg-[#85CC17]", // Keep your green
+            // heroText: "text-[#0f1511]",
+            // footerBg: "bg-[#0f1511]",
+            // accent: "#85CC17",
+            // bellColor: "#85CC17",
+            // secondary: "#ffd93d", // Warm yellow accent for contrast
+            // warm: "#ff6b35", // Warm orange for CTAs
+            // light: "#f7fff0", // Clean white with green tint
+            // navHover: "hover:bg-[#85CC17] hover:text-[#0f1511] hover:border-[#85CC17]",
+            // buttonPrimary: "bg-[#85CC17] text-[#0f1511] border-[#85CC17] hover:bg-[#ffd93d] hover:text-[#0f1511] hover:border-[#ffd93d]",
+            // buttonSecondary: "bg-[#ff6b35] text-white border-[#ff6b35] hover:bg-[#85CC17] hover:text-[#0f1511] hover:border-[#85CC17]",
+            // sectionAlt: "bg-[#1a2520]", // Warmer alternative section
+              // bg: "bg-[#111d14]", // Deep forest green
+              // text: "text-[#e8f5e8]", // Very light green-white
+              // headerBg: "bg-[#1a2920]", // Medium dark green
+              // heroBg: "bg-[#85CC17]", // Your bright green
+              // heroText: "text-[#111d14]",
+              // footerBg: "bg-[#0a1209]", // Deepest green-black
+              // accent: "#85CC17",
+              // bellColor: "#85CC17",
+              // secondary: "#4a7c59", // Muted forest green
+              // tertiary: "#9dd162", // Slightly different bright green
+              // light: "#f4f9f4", // Subtle green-tinted white
+              // navHover: "hover:bg-[#85CC17] hover:text-[#111d14] hover:border-[#85CC17]",
+              // buttonPrimary: "bg-[#85CC17] text-[#111d14] border-[#85CC17] hover:bg-[#9dd162] hover:text-[#111d14] hover:border-[#9dd162]",
+              // buttonSecondary: "bg-[#4a7c59] text-[#e8f5e8] border-[#4a7c59] hover:bg-[#85CC17] hover:text-[#111d14] hover:border-[#85CC17]",
+              // sectionAlt: "bg-[#1f2d24]", // Warmer alternative section
+
+                // bg: "bg-[#1a2520]",
+                // text: "text-[#ffffff]",
+                // headerBg: "bg-[#2f3c33]",
+                // heroBg: "bg-[#85CC17]", // Your green
+                // heroText: "text-[#1a2520]",
+                // footerBg: "bg-[#1a2520]",
+                // accent: "#85CC17",
+                // bellColor: "#85CC17",
+                // complementary: "#cc4617", // Red-orange complement to green
+                // secondary: "#17cc85", // Teal version of your green
+                // light: "#f8fff8",
+                // navHover: "hover:bg-[#85CC17] hover:text-[#1a2520] hover:border-[#85CC17]",
+                // buttonPrimary: "bg-[#85CC17] text-[#1a2520] border-[#85CC17] hover:bg-[#cc4617] hover:text-white hover:border-[#cc4617]",
+                // buttonSecondary: "bg-[#cc4617] text-white border-[#cc4617] hover:bg-[#85CC17] hover:text-[#1a2520] hover:border-[#85CC17]",
+                // sectionAlt: "bg-[#243029]", // Warmer alternative section
+
+
         }
       case "color":
         return {
-          bg: "bg-[#F3FFDE]",
-          text: "text-[#2F3C33]",
-          headerBg: "bg-[#F3FFDE]",
-          heroBg: "bg-[#2F3C33]",
-          heroText: "text-[#F3FFDE]",
-          footerBg: "bg-[#48524A]",
-          accent: "#85CC17",
-          bellColor: "#85CC17",
-          navHover: "hover:bg-[#85CC17] hover:text-[#2F3C33] hover:border-[#85CC17]",
-          buttonPrimary:
-            "bg-[#85CC17] text-[#2F3C33] border-[#85CC17] hover:bg-[#2F3C33] hover:text-[#85CC17] hover:border-[#2F3C33]",
-          buttonSecondary:
-            "bg-[#F3FFDE] text-[#2F3C33] border-[#F3FFDE] hover:bg-[#85CC17] hover:text-[#2F3C33] hover:border-[#85CC17]",
-          sectionAlt: "bg-[#48524A]",
+                  bg: "bg-[#85CC17]", // Your green is now the main background
+                  text: "text-[#1a2520]", // Dark green text
+                  headerBg: "bg-[##6bd425]", // Lighter green for header
+                  heroBg: "bg-[#1a2520]", // Dark section becomes hero
+                  heroText: "text-[#85CC17]", // Green text on dark background
+                  footerBg: "bg-[#85CC17]", // Match main bg
+                  accent: "#1a2520", // Dark becomes accent
+                  bellColor: "#1a2520",
+                  secondary: "#2f3c33", // Dark green for variety
+                  light: "#243029", // Dark becomes "light"
+                  navHover: "hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
+                  buttonPrimary: "bg-[#1a2520] text-[#85CC17] border-[#1a2520] hover:bg-[#2f3c33] hover:text-[#85CC17] hover:border-[#2f3c33]",
+                  buttonSecondary: "bg-[#243029] text-[#f0f8e8] border-[#243029] hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
+                  sectionAlt: "bg-[#a8e063]", // Lighter green alternative section
         }
+        // return {
+        //   // bg: "bg-[#F3FFDE]",
+        //   bg: "bg-[#2f3c33]",
+        //   text: "text-white",
+        //   // text: "text-[#2F3C33]",
+        //   // text: "text-[#6bd425]", //Text for navbar actually
+        //   headerBg: "bg-[#2f3c33]",
+        //   heroBg: "bg-[#85CC17]",
+        //   // heroText: "text-[#F3FFDE]",
+        //   heroText: "text-white",
+        //   footerBg: "bg-[#2f3c33]",
+        //   accent: "#85CC17",
+        //   bellColor: "#85CC17",
+        //   navHover: "hover:bg-[#85CC17] hover:text-[#2F3C33] hover:border-[#85CC17]",
+        //   buttonPrimary:
+        //     "bg-[#85CC17] text-[#2F3C33] border-[#85CC17] hover:bg-[#2F3C33] hover:text-[#85CC17] hover:border-[#2F3C33]",
+        //   buttonSecondary:
+        //     "bg-[#F3FFDE] text-[#2F3C33] border-[#F3FFDE] hover:bg-[#85CC17] hover:text-[#2F3C33] hover:border-[#85CC17]",
+        //   sectionAlt: "bg-[#48524A]",
+        // }
     }
   }
 
