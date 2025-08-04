@@ -116,21 +116,37 @@ export default function DingDongLanding() {
         }
       case "color":
         return {
-                  bg: "bg-[#85CC17]", // Your green is now the main background
-                  text: "text-[#1a2520]", // Dark green text
-                  headerBg: "bg-[##6bd425]", // Lighter green for header
-                  heroBg: "bg-[#1a2520]", // Dark section becomes hero
-                  heroText: "text-[#85CC17]", // Green text on dark background
-                  footerBg: "bg-[#85CC17]", // Match main bg
-                  accent: "#1a2520", // Dark becomes accent
-                  bellColor: "#1a2520",
-                  secondary: "#2f3c33", // Dark green for variety
-                  light: "#243029", // Dark becomes "light"
-                  navHover: "hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
-                  buttonPrimary: "bg-[#1a2520] text-[#85CC17] border-[#1a2520] hover:bg-[#2f3c33] hover:text-[#85CC17] hover:border-[#2f3c33]",
-                  buttonSecondary: "bg-[#243029] text-[#f0f8e8] border-[#243029] hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
-                  sectionAlt: "bg-[#a8e063]", // Lighter green alternative section
-        }
+                  // bg: "bg-[#85CC17]", // Your green is now the main background
+                  // text: "text-[#1a2520]", // Dark green text
+                  // headerBg: "bg-[##6bd425]", // Lighter green for header
+                  // heroBg: "bg-[#1a2520]", // Dark section becomes hero
+                  // heroText: "text-[#85CC17]", // Green text on dark background
+                  // footerBg: "bg-[#85CC17]", // Match main bg
+                  // accent: "#1a2520", // Dark becomes accent
+                  // bellColor: "#1a2520",
+                  // secondary: "#2f3c33", // Dark green for variety
+                  // light: "#243029", // Dark becomes "light"
+                  // navHover: "hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
+                  // buttonPrimary: "bg-[#1a2520] text-[#85CC17] border-[#1a2520] hover:bg-[#2f3c33] hover:text-[#85CC17] hover:border-[#2f3c33]",
+                  // buttonSecondary: "bg-[#243029] text-[#f0f8e8] border-[#243029] hover:bg-[#1a2520] hover:text-[#85CC17] hover:border-[#1a2520]",
+                  // sectionAlt: "bg-[#a8e063]", // Lighter green alternative section
+        
+                  bg: "bg-[#1a1a1a]",
+                  text: "text-[#A9FF23]",
+                  headerBg: "text-[#A9FF23]",
+                  heroBg: "bg-[#A9FF23]",
+                  heroText: "text-black",
+                  footerBg: "text-[#A9FF23]",
+                  accent: "#A9FF23",
+                  bellColor: "#A9FF23",
+                  navHover: "hover:bg-[#A9FF23] hover:text-black hover:border-[#A9FF23]",
+                  buttonPrimary:
+                    "bg-[#A9FF23] text-black border-[#A9FF23] hover:bg-black hover:text-[#A9FF23] hover:border-black",
+                  buttonSecondary:
+                    "bg-black text-[#A9FF23] border-black hover:bg-[#A9FF23] hover:text-black hover:border-black",
+                  sectionAlt: "bg-[#2a2a2a]",
+
+                }
         // return {
         //   // bg: "bg-[#F3FFDE]",
         //   bg: "bg-[#2f3c33]",
